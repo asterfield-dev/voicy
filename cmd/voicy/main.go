@@ -11,14 +11,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/FreshLabDev/tg"
-	"github.com/FreshLabDev/voicy/internal/bot"
-	"github.com/FreshLabDev/voicy/internal/config"
-	"github.com/FreshLabDev/voicy/internal/db"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/health"
-	"github.com/FreshLabDev/voicy/internal/media"
-	"github.com/FreshLabDev/voicy/internal/metrics"
+	"github.com/asterfield-dev/tg"
+	"github.com/asterfield-dev/voicy/internal/bot"
+	"github.com/asterfield-dev/voicy/internal/config"
+	"github.com/asterfield-dev/voicy/internal/db"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/health"
+	"github.com/asterfield-dev/voicy/internal/media"
+	"github.com/asterfield-dev/voicy/internal/metrics"
 )
 
 var (

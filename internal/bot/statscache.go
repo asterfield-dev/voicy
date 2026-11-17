@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FreshLabDev/voicy/internal/stats"
+	"github.com/asterfield-dev/voicy/internal/stats"
 )
 
 // statsCache serves the statistics panel from memory, mirroring the snapshot

@@ -14,7 +14,7 @@ surface. PostgreSQL is its only durable store.
   deleted when the job ends. It is never logged or stored in PostgreSQL.
 - ffmpeg reduces video and oversized media to a mono Opus track before the
   Deepgram request. Without ffmpeg the original is sent instead.
-- Telegram is accessed through `github.com/FreshLabDev/tg`, the client shared
+- Telegram is accessed through `github.com/asterfield-dev/tg`, the client shared
   by the bot family. There is no SDK and no webhook mode.
 - `TELEGRAM_API_BASE` selects the Bot API server. The shared self-hosted one on
   `telegram_bot_api_net` runs with `TELEGRAM_LOCAL`, so `getFile` answers with an

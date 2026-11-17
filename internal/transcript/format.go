@@ -8,10 +8,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/i18n"
-	"github.com/FreshLabDev/voicy/internal/settings"
-	"github.com/FreshLabDev/voicy/internal/stats"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/i18n"
+	"github.com/asterfield-dev/voicy/internal/settings"
+	"github.com/asterfield-dev/voicy/internal/stats"
 )
 
 const MaxRichCharacters = 32768
@@ -244,8 +244,8 @@ func RecognitionButton(lang, current string) string {
 const (
 	productName     = "Voicy"
 	recognitionName = "Deepgram nova-3"
-	repoURL         = "https://github.com/FreshLabDev/voicy"
-	repoName        = "FreshLabDev/voicy"
+	repoURL         = "https://github.com/asterfield-dev/voicy"
+	repoName        = "asterfield-dev/voicy"
 	licenseName     = "Apache-2.0"
 	adminURL        = "https://t.me/amtiyo"
 	adminName       = "@amtiyo"

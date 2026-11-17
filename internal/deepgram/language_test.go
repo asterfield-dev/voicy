@@ -12,7 +12,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FreshLabDev/voicy/internal/metrics"
+	"github.com/asterfield-dev/voicy/internal/metrics"
 )
 
 // detectionLanguages is the list on developers.deepgram.com/docs/language-detection

@@ -4,11 +4,11 @@ Keep Voicy minimal, private by default, and production-minded.
 
 ## Project Shape
 
-- Voicy is one Go service (module `github.com/FreshLabDev/voicy`).
+- Voicy is one Go service (module `github.com/asterfield-dev/voicy`).
 - PostgreSQL is the only durable store. Domain tables live in a `voicy`
   schema. Telegram identity and presence are delegated to shared `core`
   (`core.touch('voicy', …)`).
-- Telegram goes through `github.com/FreshLabDev/tg`, the client shared by the
+- Telegram goes through `github.com/asterfield-dev/tg`, the client shared by the
   bot family. Voicy keeps no private HTTP client: transport, retries, token
   redaction, rich and ephemeral messages, and local Bot API files all live
   there. Long polling only.

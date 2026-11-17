@@ -13,13 +13,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/tg"
-	"github.com/FreshLabDev/voicy/internal/db"
-	"github.com/FreshLabDev/voicy/internal/decide"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/settings"
-	"github.com/FreshLabDev/voicy/internal/stats"
-	"github.com/FreshLabDev/voicy/internal/transcript"
+	"github.com/asterfield-dev/tg"
+	"github.com/asterfield-dev/voicy/internal/db"
+	"github.com/asterfield-dev/voicy/internal/decide"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/settings"
+	"github.com/asterfield-dev/voicy/internal/stats"
+	"github.com/asterfield-dev/voicy/internal/transcript"
 )
 
 type fakeStore struct {
@@ -830,7 +830,7 @@ func TestPrivateCommandMenuIsStartOnly(t *testing.T) {
 // button to the same address would be the same door listed twice.
 func TestAboutCardCarriesVersionAndSource(t *testing.T) {
 	text, kb := aboutPanel("ru", 7, "v0.0.1-beta.5", scopePrivate)
-	for _, want := range []string{"<b>Voicy</b>", "v0.0.1-beta.5", "github.com/FreshLabDev/voicy", "Apache-2.0", "t.me/amtiyo", "Deepgram nova-3"} {
+	for _, want := range []string{"<b>Voicy</b>", "v0.0.1-beta.5", "github.com/asterfield-dev/voicy", "Apache-2.0", "t.me/amtiyo", "Deepgram nova-3"} {
 		if !strings.Contains(text, want) {
 			t.Fatalf("about card missing %q: %s", want, text)
 		}

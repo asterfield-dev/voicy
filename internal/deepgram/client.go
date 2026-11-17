@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FreshLabDev/voicy/internal/httpx"
-	"github.com/FreshLabDev/voicy/internal/metrics"
+	"github.com/asterfield-dev/voicy/internal/httpx"
+	"github.com/asterfield-dev/voicy/internal/metrics"
 )
 
 const (

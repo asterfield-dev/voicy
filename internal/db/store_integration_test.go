@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/tg"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/settings"
+	"github.com/asterfield-dev/tg"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/settings"
 )
 
 func testStore(t *testing.T) *Store {

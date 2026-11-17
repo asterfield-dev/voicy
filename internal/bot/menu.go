@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/FreshLabDev/tg"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/i18n"
-	"github.com/FreshLabDev/voicy/internal/settings"
-	"github.com/FreshLabDev/voicy/internal/stats"
-	"github.com/FreshLabDev/voicy/internal/transcript"
+	"github.com/asterfield-dev/tg"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/i18n"
+	"github.com/asterfield-dev/voicy/internal/settings"
+	"github.com/asterfield-dev/voicy/internal/stats"
+	"github.com/asterfield-dev/voicy/internal/transcript"
 )
 
 const menuPrefix = "m"

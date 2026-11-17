@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/voicy/internal/decide"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/stats"
-	"github.com/FreshLabDev/voicy/internal/transcript"
+	"github.com/asterfield-dev/voicy/internal/decide"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/stats"
+	"github.com/asterfield-dev/voicy/internal/transcript"
 )
 
 // A direct chat used to show nothing at all while Deepgram worked: the single

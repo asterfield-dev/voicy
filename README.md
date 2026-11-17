@@ -3,9 +3,9 @@
 <p align="center"><strong>Send a voice or a video circle. Get the text.</strong><br/>A small Go Telegram bot that transcribes with Deepgram.</p>
 
 <p align="center">
-  <a href="https://github.com/FreshLabDev/voicy/releases"><img src="https://img.shields.io/github/v/release/FreshLabDev/voicy?include_prereleases&sort=semver&style=for-the-badge&label=latest&labelColor=0f172a&color=4c8c4a" alt="latest version"></a>
+  <a href="https://github.com/asterfield-dev/voicy/releases"><img src="https://img.shields.io/github/v/release/asterfield-dev/voicy?include_prereleases&sort=semver&style=for-the-badge&label=latest&labelColor=0f172a&color=4c8c4a" alt="latest version"></a>
   <a href="docs/versioning.md"><img src="https://img.shields.io/badge/version-v0.1.0-4c8c4a?style=for-the-badge&labelColor=0f172a" alt="current version"></a>
-  <a href="go.mod"><img src="https://img.shields.io/github/go-mod/go-version/FreshLabDev/voicy?style=for-the-badge&logo=go&logoColor=white&label=go&labelColor=0f172a&color=00ADD8" alt="go version"></a>
+  <a href="go.mod"><img src="https://img.shields.io/github/go-mod/go-version/asterfield-dev/voicy?style=for-the-badge&logo=go&logoColor=white&label=go&labelColor=0f172a&color=00ADD8" alt="go version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-334155?style=for-the-badge&labelColor=0f172a" alt="license"></a>
   <a href="https://t.me/voicyin_bot"><img src="https://img.shields.io/badge/telegram-%40voicyin__bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0f172a" alt="telegram bot"></a>
 </p>
@@ -225,7 +225,7 @@ docker compose config
 ---
 
 <p align="center">
-  <a href="https://github.com/FreshLabDev/voicy/releases">Releases</a> ·
+  <a href="https://github.com/asterfield-dev/voicy/releases">Releases</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="LICENSE">Apache-2.0</a> ·
   <a href="NOTICE">NOTICE</a>

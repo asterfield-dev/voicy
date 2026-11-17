@@ -13,6 +13,28 @@ See [`docs/versioning.md`](docs/versioning.md) for what the numbers mean and
 
 Use this section for changes that are merged but not released yet.
 
+## v0.1.2 - 2026-11-17
+
+The GitHub organization FreshLabDev is now asterfield-dev, and the bot moves
+with it. Nothing a person sees in Telegram changes.
+
+### Changed
+
+- **Images are published as `ghcr.io/asterfield-dev/voicy`.** The organization
+  was renamed, and GitHub Container Registry does not redirect the old name:
+  `ghcr.io/freshlabdev/voicy` answers 403. Point the deployment's image at the
+  new path; every earlier digest is there under it too.
+- tg moves from `v0.0.1-alpha.7` to `v0.4.0-alpha.2`, whose module path is
+  `github.com/asterfield-dev/tg`. voicy needed no change for it.
+- Links, the module path and the docs point at `github.com/asterfield-dev`.
+  Old links still redirect.
+
+### Known Limitations
+
+- Released as a stable patch without a pre-release first, at the owner's
+  request: the change is the organization rename and the tg upgrade, checked
+  by the full test suite, not by a run on a test bot.
+
 ## v0.1.1 - 2026-10-20
 
 Voice messages in Arabic, Persian, Belarusian and 23 more languages that
@@ -311,7 +333,7 @@ server that cannot serve it.
 
 ### Changed
 
-- Telegram now goes through `github.com/FreshLabDev/tg`, the client shared by
+- Telegram now goes through `github.com/asterfield-dev/tg`, the client shared by
   the bot family, and `internal/telegram` is gone. The transport, retries,
   token redaction, rich messages and the 10.3 ephemeral contract were the same
   code in three bots and had already drifted apart; they now have one home.

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/settings"
-	"github.com/FreshLabDev/voicy/internal/stats"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/settings"
+	"github.com/asterfield-dev/voicy/internal/stats"
 )
 
 func TestFormatEscapesWithoutMeta(t *testing.T) {
@@ -83,7 +83,7 @@ func TestAboutCardShape(t *testing.T) {
 		t.Fatalf("about head = %s", got)
 	}
 	for _, want := range []string{
-		`<a href="https://github.com/FreshLabDev/voicy">FreshLabDev/voicy</a>`,
+		`<a href="https://github.com/asterfield-dev/voicy">asterfield-dev/voicy</a>`,
 		`<a href="https://t.me/amtiyo">@amtiyo</a>`,
 		"Apache-2.0",
 		"Deepgram nova-3",

@@ -11,10 +11,10 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/FreshLabDev/tg"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/settings"
-	"github.com/FreshLabDev/voicy/internal/stats"
+	"github.com/asterfield-dev/tg"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/settings"
+	"github.com/asterfield-dev/voicy/internal/stats"
 )
 
 type Store struct {

@@ -4,7 +4,7 @@ package db
 import (
 	"testing"
 
-	"github.com/FreshLabDev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
 )
 
 // The daily allowance adds up jobs.audio_seconds, so what a job records is what

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 package media
 
-import "github.com/FreshLabDev/tg"
+import "github.com/asterfield-dev/tg"
 
 // Ref is an attachment Voicy might transcribe, flattened out of whichever
 // Telegram field carried it.

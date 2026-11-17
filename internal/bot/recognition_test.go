@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/tg"
-	"github.com/FreshLabDev/voicy/internal/db"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/settings"
+	"github.com/asterfield-dev/tg"
+	"github.com/asterfield-dev/voicy/internal/db"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/settings"
 )
 
 // dmVoice is a direct-chat voice message from user 7 whose Telegram client

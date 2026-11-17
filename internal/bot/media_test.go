@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/media"
-	"github.com/FreshLabDev/voicy/internal/stats"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/media"
+	"github.com/asterfield-dev/voicy/internal/stats"
 )
 
 // pathSTT records the file it was handed, so tests can prove what actually

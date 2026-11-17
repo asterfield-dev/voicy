@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/voicy/internal/db"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
-	"github.com/FreshLabDev/voicy/internal/settings"
-	"github.com/FreshLabDev/voicy/internal/transcript"
+	"github.com/asterfield-dev/voicy/internal/db"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/voicy/internal/settings"
+	"github.com/asterfield-dev/voicy/internal/transcript"
 )
 
 const dmVoice200s = `{

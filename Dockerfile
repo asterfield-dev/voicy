@@ -34,7 +34,7 @@ ARG VERSION=dev
 ARG COMMIT=none
 LABEL org.opencontainers.image.version="${VERSION}" \
       org.opencontainers.image.revision="${COMMIT}" \
-      org.opencontainers.image.source="https://github.com/FreshLabDev/voicy"
+      org.opencontainers.image.source="https://github.com/asterfield-dev/voicy"
 USER voicy
 
 EXPOSE 8080

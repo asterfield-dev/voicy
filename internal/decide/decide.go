@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/FreshLabDev/tg"
-	"github.com/FreshLabDev/voicy/internal/media"
+	"github.com/asterfield-dev/tg"
+	"github.com/asterfield-dev/voicy/internal/media"
 )
 
 type Kind string

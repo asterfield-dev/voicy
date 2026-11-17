@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/FreshLabDev/voicy/internal/db"
+	"github.com/asterfield-dev/voicy/internal/db"
 )
 
 type Store interface {

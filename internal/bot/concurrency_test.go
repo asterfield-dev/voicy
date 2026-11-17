@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/tg"
-	"github.com/FreshLabDev/voicy/internal/deepgram"
+	"github.com/asterfield-dev/tg"
+	"github.com/asterfield-dev/voicy/internal/deepgram"
 )
 
 // blockingSTT parks every call until release is closed, and reports how many

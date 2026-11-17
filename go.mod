@@ -2,7 +2,7 @@
 
 module github.com/asterfield-dev/voicy
 
-go 1.26.9
+go 1.26.11
 
 require (
 	github.com/asterfield-dev/tg v0.4.0-alpha.2
